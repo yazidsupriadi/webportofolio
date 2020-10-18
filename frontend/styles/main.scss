@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	max-width: 100%;
+	overflow-x: hidden;
+	background-color: #ffffff;	
+	color: #071C4D;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+	ul{
+		li{
+			
+	a{
+		color: red;
+	}
+		}
+	}
+}
+.navbar-brand{
+
+	img{
+		max-height:40px;
+		width: 50px;
+		margin-left: 20px;
+		border-radius: 50%;
+	}
+}
+
+header{
+	min-height: 410px;
+	
+	padding: 100px 0 300px 50px;
+	background-image: linear-gradient(to bottom right, #010038, #293a80);
+	filter: opacity(120%);
+	background-size: cover;
+	h6 {
+		align-items: center;
+		font-family: inherit;
+		font-size: 30px;
+		font-weight: bold;
+		color : #ffffff;
+		
+	}
+	p{
+		align-items: center;
+		font-family: inherit;
+		font-size: 14px;
+		color : #ffffff;
+		
+	}
+	a{
+	display: inline-block;
+	
+    padding: 15px;
+    border: 0.125rem solid #f3be22;
+    border-radius: 2rem;
+    background-color: #f3be22;
+    color: #fff;
+    font: 700 0.75rem/0 "Montserrat", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+	}
+
+	.btn-pintas{
+		margin-left: 30px;
+	}
+
+	img	{
+		display: block;
+		justify-content: center;
+		align-items: center;
+		height: 200px;
+		width:  200px;
+		margin-left: 4cm;
+		margin-bottom: -30cm;
+	
+	}
+}
+.section-stats{
+	margin-top: -50px;
+}
+
+.stats-detail{
+	padding-top: 15px;
+	padding-left: 25px;
+	background-color: #fff;
+}
+.stats-detail h2{
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.stats-detail p{
+	color: #071C4D;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+
+.section-network{
+	margin-top: -180px;
+	padding-top: 240px;
+	padding-bottom: 50px;
+	background-color: #fff;
+}
+
+.section-network h2{
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+
+}
+.section-network p{
+	color: #071C4D;
+	font-family: 'Playfair Display', serif;
+
+}
+
+
+
+.introduction{
+	padding: 80px 0 80px 20px;
+	margin-bottom: 20px;
+
+	background-image: url('../images/header/header.png');
+	filter: blur(60%);
+	background-size: cover;
+	
+	h2{
+		font-size: 32px;
+		color: #ffffff;
+		margin-bottom: 30px;
+	}
+	iframe{
+		display: flex;
+		align-items: center;
+		overflow: hidden;
+		border: 15px solid white;
+		border-radius: 10px 10px 10px 10px;
+		padding : 0px;
+	}
+}
+
+.aduan{
+	margin-top: 80px;
+	margin-bottom: 40px;
+
+	.card-aduan{
+		margin-top: 40px;
+		border: 10px solid black;
+		border-radius: 10px 10px 10px 10px;
+	}
+	h3{
+		color: white;
+	}
+	.card-aduan-title{
+		background-color: rgb(226, 86, 43);
+	}
+
+	
+	.card-aduan-title-iptek{
+		background-color: rgb(6, 9, 212);
+	}
+
+	.card-aduan-description{
+		margin: 20px 20px 20px 20px;
+	}
+
+	.pintas-button{
+		
+		margin: 30px 0 30px 0;
+		
+		a{
+			background-color: rgb(6, 9, 212);
+			color: white;
+		}
+		
+	}
+
+	
+	.tanyaiptek-button{
+		
+		margin: 30px 0 30px 0;
+		
+		a{
+			background-color: rgb(228, 89, 8);
+			color: white;
+		}
+		
+	}
+}
+
+.popular-news{
+	img{
+		width : 350px;
+		height:200px;
+		margin-bottom: 15px;
+	}
+	h4{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	
+	}
+}
+footer{
+	
+	background-image: linear-gradient(to bottom right, #010038, #293a80);
+	h3,h5,a{
+		color:#ffffff;
+	}
+}
+
+	
+
